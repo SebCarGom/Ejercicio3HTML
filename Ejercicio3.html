@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 5px;
+            text-align: center;
+        }
+
+        body {
+            color: black
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>1DAW Horario de Clase</caption>
+        <colgroup>
+            <col span="1" style="background-color:salmon">
+            <col span="5" style="background-color:skyblue">
+        </colgroup>
+        <thead>
+            <tr style="background-color:white">
+                <th></th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</tsh>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>8:15 - 9:15</td>
+                <td rowspan="3">Sistemas Informáticos</td>
+                <td>Bases de Datos</td>
+                <td>Bases de Datos</td>
+                <td rowspan="2">Bases de Datos</td>
+                <td rowspan="2">Bases de Datos</td>
+            </tr>
+            <tr>
+                <td>9:15 - 10:15</td>
+                <td>Programación</td>
+                <td rowspan="2">Lenguajes de Marcas y Sistemas de Gestión de Información</td>
+            </tr>
+            <tr>
+                <td>10:15 - 11:15</td>
+                <td>Entornos de Desarrollo</td>
+                <td>Entornos de Desarrollo</td>
+                <td>Programación</td>
+            </tr>
+            <tr>
+                <td>11:15 - 11:45</td>
+                <td colspan="6">RECREO</td>
+            </tr>
+            <tr>
+                <td>11:45 - 12:45</td>
+                <td rowspan="3">Formación y Orientación Laboral</td>
+                <td rowspan="3">Sistemas Informáticos</td>
+                <td rowspan="3">Programación</td>
+                <td>Entornos de Desarrollo</td>
+                <td>Programación</td>
+            </tr>
+            <tr>
+                <td>12:45 - 13:45</td>
+                <td rowspan="2">Programación</td>
+                <td rowspan="2">Lenguajes de Marcas y Sistemas de Gestión de Información</td>
+            </tr>
+            <tr>
+                <td>13:45 - 14:45</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="6">HORAS TOTALES SEMANALES: 32.5 horas</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
